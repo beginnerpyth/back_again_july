@@ -4,7 +4,7 @@ import logging
 from keema import TodoCreate,TodoUpdate
 app = FastAPI()
 purpur=logging.getLogger(__name__)
-pap=APIRouter(prefix='/podos',tags=['ekaima'])
+pap=APIRouter(prefix='/podos/',tags=['ekaima'])
 
 # Pydantic schema — defines shape of incoming data
 
